@@ -29,7 +29,7 @@ const HomeContent:FC = () => {
   }, [])
 
   if(isLoading) {
-    console.log("Loading...");
+    console.log("Loading");
   }
   if (data) {
     console.log(data);
